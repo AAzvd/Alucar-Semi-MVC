@@ -30,3 +30,4 @@ Continuação do Alucar
 
 **Próximos passos**
 - Área financeira, roteador único (front controller), paginação e responsividade.
+- Imagens, imagem de perfil, dos carros, receber imagem via $FILES talvez, verificarei com Morais como será os proximos conteudos
