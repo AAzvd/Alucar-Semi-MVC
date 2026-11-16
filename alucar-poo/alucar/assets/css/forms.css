@@ -1,0 +1,98 @@
+.user-form, .car-form, .rental-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: flex-end;
+}
+.user-form label, .car-form label, .rental-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 12.5px;
+  color: var(--text-dim);
+  letter-spacing: .4px;
+}
+.user-form input, .car-form input, .rental-form input,
+.user-form select, .car-form select, .rental-form select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 12px;
+  color: var(--text);
+  font-size: 14px;
+  min-width: 170px;
+}
+.user-form button, .car-form button, .rental-form button {
+  align-self: flex-end;
+}
+.alert-error {
+  color: #e05a5f;
+  background: rgba(224,90,95,0.08);
+  border: 1px solid rgba(224,90,95,0.3);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.alert-success {
+  color: var(--green);
+  background: rgba(62,207,110,0.08);
+  border: 1px solid rgba(62,207,110,0.3);
+  padding: 10px 14px;
+  border-radius: 8px;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+.filter-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 18px 28px 0;
+  flex-wrap: wrap;
+}
+.filter-bar a {
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  text-decoration: none;
+}
+.filter-bar a.active {
+  background: var(--red);
+  color: #fff;
+  border-color: var(--red);
+}
+
+/* ---------- Botões que fazem POST (excluir, devolver, sair) ---------- */
+.inline-form { display: inline; margin: 0; }
+.logout-form { margin: 0; }
+
+a.btn-new-vehicle { text-decoration: none; }
+
+button.sidebar-bottom-item {
+  background: none;
+  border: 0;
+  width: 100%;
+  font-family: inherit;
+  text-align: left;
+}
+
+.icon-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+.link-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-decoration: underline;
+}
